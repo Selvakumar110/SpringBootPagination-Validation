@@ -9,6 +9,5 @@ import com.library.model.Library;
 @Repository
 
 public interface LibraryRepository extends JpaRepository<Library, Long> {
-	public Library findByName(String name);
-
+	
 }
