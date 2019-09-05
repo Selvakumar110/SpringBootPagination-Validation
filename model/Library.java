@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import org.springframework.stereotype.Component;
 
 @Entity
-@Component
+
 public class Library {
 	@Id
 	@GeneratedValue(strategy = GenerationType.TABLE)
